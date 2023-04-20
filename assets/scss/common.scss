@@ -1,27 +1,16 @@
-
 @mixin prefix($property, $value, $prefixes) {
   @each $prefix in $prefixes {
     @if $prefix==webkit {
       -webkit-#{$property}: $value;
-    }
-
-    @else if $prefix==moz {
+    } @else if $prefix==moz {
       -moz-#{$property}: $value;
-    }
-
-    @else if $prefix==ms {
+    } @else if $prefix==ms {
       -ms-#{$property}: $value;
-    }
-
-    @else if $prefix==o {
+    } @else if $prefix==o {
       -o-#{$property}: $value;
-    }
-
-    @else if $prefix==spec {
+    } @else if $prefix==spec {
       #{$property}: $value;
-    }
-
-    @else {
+    } @else {
       @warn "Unrecognized prefix: #{$prefix}";
     }
   }
@@ -42,18 +31,16 @@ iframe {
   }
 }
 
-
 @media (max-width: 575px) {
   .container-fluid {
-    padding-left: var(--bs-gutter-x, .75rem);
-    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    padding-right: var(--bs-gutter-x, 0.75rem);
   }
 }
 
-
 // background & color
 .bg-1 {
-  background-color: #00234D;
+  background-color: #00234d;
 }
 
 .bg-2 {
@@ -61,31 +48,31 @@ iframe {
 }
 
 .bg-3 {
-  background-color: #F76B6A;
+  background-color: #f76b6a;
 }
 
 .bg-4 {
-  background-color: #071C1F;
+  background-color: #071c1f;
 }
 
 .bg-5 {
-  background-color: #FBF3F0;
+  background-color: #fbf3f0;
 }
 
 .bg-pink {
-  background-color: #FFF3F3;
+  background-color: #fff3f3;
 }
 
 .bg-trust-1 {
-  background-color: #FCEDDA;
+  background-color: #fcedda;
 }
 
 .bg-trust-2 {
-  background-color: #F2FBCB;
+  background-color: #f2fbcb;
 }
 
 .bg-trust-3 {
-  background-color: #F7D8F9;
+  background-color: #f7d8f9;
 }
 
 // button and input
@@ -119,7 +106,11 @@ iframe {
 
 .btn-primary,
 .btn-member {
-  @include prefix(border-radius, var(--btn-primary-border-radius), ms webkit spec);
+  @include prefix(
+    border-radius,
+    var(--btn-primary-border-radius),
+    ms webkit spec
+  );
   color: var(--btn-primary-color);
   border: 1px solid var(--btn-primary-border-color);
   background-color: var(--btn-primary-background-color);
@@ -127,7 +118,11 @@ iframe {
 }
 
 .btn-secondary {
-  @include prefix(border-radius, var(--btn-secondary-border-radius), ms webkit spec);
+  @include prefix(
+    border-radius,
+    var(--btn-secondary-border-radius),
+    ms webkit spec
+  );
   color: var(--btn-secondary-color);
   border: 1px solid var(--btn-secondary-border-color);
   background-color: var(--btn-secondary-background-color);
@@ -160,7 +155,7 @@ iframe {
 
 .field {
   height: 48px;
-  background: #E5E5E5;
+  background: #e5e5e5;
   padding: 0 15px;
   @include prefix(border-radius, 0.25rem, ms webkit spec);
   @include prefix(display, flex, ms webkit spec);
@@ -343,7 +338,6 @@ body {
   }
 }
 
-
 // color
 .primary-color {
   color: var(--primary-color);
@@ -522,7 +516,6 @@ button,
   opacity: 0.5 !important;
 }
 
-
 // show second image on hover
 .hover-switch {
   position: relative;
@@ -550,7 +543,7 @@ button,
   visibility: visible;
 }
 
-.product-card:hover .secondary-img+.primary-img {
+.product-card:hover .secondary-img + .primary-img {
   opacity: 0;
   visibility: hidden;
 }
@@ -570,8 +563,7 @@ button,
   position: fixed;
   bottom: 30px;
   right: 30px;
-  transition: background-color .3s, 
-  opacity .5s, visibility .5s;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
   opacity: 0;
   visibility: hidden;
   z-index: 1000;
