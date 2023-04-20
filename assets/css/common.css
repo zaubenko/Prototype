@@ -1,20 +1,4 @@
-/*============================================================================
-  Prefix mixin for generating vendor prefixes:
-  Usage:
-    // Input:
-    .element {
-      @include prefix(transform, scale(1), ms webkit spec);
-    }
 
-    // Output:
-    .element {
-      -ms-transform: scale(1);
-      -webkit-transform: scale(1);
-      transform: scale(1);
-    }
-
-  Based on https://github.com/thoughtbot/bourbon/blob/master/app/assets/stylesheets/addons/_prefixer.scss
-==============================================================================*/
 .container-fluid {
   padding-left: 160px;
   padding-right: 160px; }
@@ -533,9 +517,12 @@ button,
   position: fixed;
   bottom: 30px;
   right: 30px;
-  -webkit-transition: background-color .3s,  opacity .5s, visibility .5s;
-  -o-transition: background-color .3s,  opacity .5s, visibility .5s;
-  transition: background-color .3s,  opacity .5s, visibility .5s;
+  -webkit-transition: background-color .3s, 
+ opacity .5s, visibility .5s;
+  -o-transition: background-color .3s, 
+ opacity .5s, visibility .5s;
+  transition: background-color .3s, 
+ opacity .5s, visibility .5s;
   opacity: 0;
   visibility: hidden;
   z-index: 1000;

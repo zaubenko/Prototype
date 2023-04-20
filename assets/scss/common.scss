@@ -1,20 +1,4 @@
-/*============================================================================
-  Prefix mixin for generating vendor prefixes:
-  Usage:
-    // Input:
-    .element {
-      @include prefix(transform, scale(1), ms webkit spec);
-    }
 
-    // Output:
-    .element {
-      -ms-transform: scale(1);
-      -webkit-transform: scale(1);
-      transform: scale(1);
-    }
-
-  Based on https://github.com/thoughtbot/bourbon/blob/master/app/assets/stylesheets/addons/_prefixer.scss
-==============================================================================*/
 @mixin prefix($property, $value, $prefixes) {
   @each $prefix in $prefixes {
     @if $prefix==webkit {
