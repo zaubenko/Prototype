@@ -63,13 +63,13 @@
             --section-subheading-font-weight: 400;
         }
     </style>
+
     <link rel="stylesheet" href="assets/css/vendor.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <div class="body-wrapper">
-        <!-- header start -->
         <!-- announcement bar start -->
         <div class="announcement-bar bg-1 py-1 py-lg-2">
             <div class="container">
@@ -111,6 +111,8 @@
             </div>
         </div>
     </div>
+
+    <!-- header start -->
     <header class="sticky-header border-btm-black header-1">
         <div class="header-bottom">
             <div class="container">
@@ -206,6 +208,7 @@
     </header>
     <!-- header end -->
 
+
     <!-- breadcrumb start -->
     <div class="breadcrumb">
         <div class="container">
@@ -221,258 +224,54 @@
                         </g>
                     </svg>
                 </li>
-                <li>Products</li>
+                <li>Register</li>
             </ul>
         </div>
     </div>
     <!-- breadcrumb end -->
 
     <main id="MainContent" class="content-for-layout">
-        <div class="collection mt-100">
+        <div class="login-page mt-100">
             <div class="container">
-                <div class="row flex-row-reverse">
-                    <!-- product area start -->
-                    <div class="col-lg-12 col-md-12 col-12">
-                        <div class="filter-sort-wrapper d-flex justify-content-between flex-wrap">
-                            <div class="collection-title-wrap d-flex align-items-end">
-                                <h2 class="collection-title heading_24 mb-0">3D Model</h2>
-                                <p class="collection-counter text_16 mb-0 ms-2"></p>
-                            </div>
-                            <div class="filter-sorting">
-                                <div class="collection-sorting position-relative d-none d-lg-block">
-                                    <div class="sorting-header text_16 d-flex align-items-center justify-content-end">
-                                        <span class="sorting-title me-2">Category</span>
-
-                                        <span class="sorting-icon">
-                                            <svg class="icon icon-down" xmlns="http://www.w3.org/2000/svg" width="24"
-                                                height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                class="feather feather-chevron-down">
-                                                <polyline points="6 9 12 15 18 9"></polyline>
-                                            </svg>
-                                        </span>
-                                    </div>
-                                    <ul class="sorting-lists list-unstyled m-0">
-                                        <li><a href="car.html" class="text_14">Car</a></li>
-                                        <li><a href="animal.html" class="text_14">Animal</a></li>
-                                        <li><a href="collection-left-sidebar.html" class="text_14">Tower</a></li>
-                                    </ul>
-                                </div>
-                                <div class="filter-drawer-trigger mobile-filter d-flex align-items-center d-lg-none">
-                                    <span class="mobile-filter-icon me-2">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                            stroke-linecap="round" stroke-linejoin="round" class="icon icon-filter">
-                                            <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon>
-                                        </svg>
-                                    </span>
-                                    <span class="mobile-filter-heading">Filter and Sorting</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="collection-product-container">
-                            <div class="row">
-                                <div class="col-lg-4 col-md-6 col-6" data-aos="fade-up" data-aos-duration="700">
-                                    <div class="product-card">
-                                        <div class="product-card-img">
-                                            <a class="hover-switch" href="collection-left-sidebar.html">
-                                                <img class="secondary-img" src="assets/img/products/vasta/11.jpg"
-                                                    alt="product-img">
-                                                <img class="primary-img" src="assets/img/products/vasta/22.jpg"
-                                                    alt="product-img">
-                                            </a>
-
-                                            <div
-                                                class="product-card-action product-card-action-2 justify-content-center">
-                                                <a href="#quickview-modal" class="action-card action-quickview"
-                                                    data-bs-toggle="modal">
-                                                    <svg width="26" height="26" viewBox="0 0 26 26" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path
-                                                            d="M10 0C15.5117 0 20 4.48828 20 10C20 12.3945 19.1602 14.5898 17.75 16.3125L25.7188 24.2812L24.2812 25.7188L16.3125 17.75C14.5898 19.1602 12.3945 20 10 20C4.48828 20 0 15.5117 0 10C0 4.48828 4.48828 0 10 0ZM10 2C5.57031 2 2 5.57031 2 10C2 14.4297 5.57031 18 10 18C14.4297 18 18 14.4297 18 10C18 5.57031 14.4297 2 10 2ZM11 6V9H14V11H11V14H9V11H6V9H9V6H11Z"
-                                                            fill="#00234D" />
-                                                    </svg>
-                                                </a>
-
-                                                <a href="#" class="action-card action-wishlist">
-                                                    <svg class="icon icon-wishlist" width="26" height="22"
-                                                        viewBox="0 0 26 22" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path
-                                                            d="M6.96429 0.000183105C3.12305 0.000183105 0 3.10686 0 6.84843C0 8.15388 0.602121 9.28455 1.16071 10.1014C1.71931 10.9181 2.29241 11.4425 2.29241 11.4425L12.3326 21.3439L13 22.0002L13.6674 21.3439L23.7076 11.4425C23.7076 11.4425 26 9.45576 26 6.84843C26 3.10686 22.877 0.000183105 19.0357 0.000183105C15.8474 0.000183105 13.7944 1.88702 13 2.68241C12.2056 1.88702 10.1526 0.000183105 6.96429 0.000183105ZM6.96429 1.82638C9.73912 1.82638 12.3036 4.48008 12.3036 4.48008L13 5.25051L13.6964 4.48008C13.6964 4.48008 16.2609 1.82638 19.0357 1.82638C21.8613 1.82638 24.1429 4.10557 24.1429 6.84843C24.1429 8.25732 22.4018 10.1584 22.4018 10.1584L13 19.4036L3.59821 10.1584C3.59821 10.1584 3.14844 9.73397 2.69866 9.07411C2.24888 8.41426 1.85714 7.55466 1.85714 6.84843C1.85714 4.10557 4.13867 1.82638 6.96429 1.82638Z"
-                                                            fill="#00234D" />
-                                                    </svg>
-                                                </a>
-
-                                                <a href="#" class="action-card action-addtocart">
-                                                    <svg class="icon icon-cart" width="24" height="26"
-                                                        viewBox="0 0 24 26" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path
-                                                            d="M12 0.000183105C9.25391 0.000183105 7 2.25409 7 5.00018V6.00018H2.0625L2 6.93768L1 24.9377L0.9375 26.0002H23.0625L23 24.9377L22 6.93768L21.9375 6.00018H17V5.00018C17 2.25409 14.7461 0.000183105 12 0.000183105ZM12 2.00018C13.6562 2.00018 15 3.34393 15 5.00018V6.00018H9V5.00018C9 3.34393 10.3438 2.00018 12 2.00018ZM3.9375 8.00018H7V11.0002H9V8.00018H15V11.0002H17V8.00018H20.0625L20.9375 24.0002H3.0625L3.9375 8.00018Z"
-                                                            fill="#00234D" />
-                                                    </svg>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="product-card-details">
-                                            <ul class="color-lists list-unstyled d-flex align-items-center">
-                                                <li><a href="javascript:void(0)"
-                                                        class="color-swatch swatch-black active"></a></li>
-                                                <li><a href="javascript:void(0)" class="color-swatch swatch-cyan"></a>
-                                                </li>
-                                                <li><a href="javascript:void(0)" class="color-swatch swatch-purple"></a>
-                                                </li>
-                                            </ul>
-                                            <h3 class="product-card-title">
-                                                <a href="collection-left-sidebar.html">Car1</a>
-                                            </h3>
-                                            <div class="product-card-price">
-                                                <span class="card-price-regular">$300</span>
-                                                <span
-                                                    class="card-price-compare text-decoration-line-through">$1759</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 col-6" data-aos="fade-up" data-aos-duration="700">
-                                    <div class="product-card">
-                                        <div class="product-card-img">
-                                            <a class="hover-switch" href="collection-left-sidebar.html">
-                                                <img class="secondary-img" src="assets/img/products/vasta/11.jpg"
-                                                    alt="product-img">
-                                                <img class="primary-img" src="assets/img/products/vasta/22.jpg"
-                                                    alt="product-img">
-                                            </a>
-
-                                            <div
-                                                class="product-card-action product-card-action-2 justify-content-center">
-                                                <a href="#quickview-modal" class="action-card action-quickview"
-                                                    data-bs-toggle="modal">
-                                                    <svg width="26" height="26" viewBox="0 0 26 26" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path
-                                                            d="M10 0C15.5117 0 20 4.48828 20 10C20 12.3945 19.1602 14.5898 17.75 16.3125L25.7188 24.2812L24.2812 25.7188L16.3125 17.75C14.5898 19.1602 12.3945 20 10 20C4.48828 20 0 15.5117 0 10C0 4.48828 4.48828 0 10 0ZM10 2C5.57031 2 2 5.57031 2 10C2 14.4297 5.57031 18 10 18C14.4297 18 18 14.4297 18 10C18 5.57031 14.4297 2 10 2ZM11 6V9H14V11H11V14H9V11H6V9H9V6H11Z"
-                                                            fill="#00234D" />
-                                                    </svg>
-                                                </a>
-
-                                                <a href="#" class="action-card action-wishlist">
-                                                    <svg class="icon icon-wishlist" width="26" height="22"
-                                                        viewBox="0 0 26 22" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path
-                                                            d="M6.96429 0.000183105C3.12305 0.000183105 0 3.10686 0 6.84843C0 8.15388 0.602121 9.28455 1.16071 10.1014C1.71931 10.9181 2.29241 11.4425 2.29241 11.4425L12.3326 21.3439L13 22.0002L13.6674 21.3439L23.7076 11.4425C23.7076 11.4425 26 9.45576 26 6.84843C26 3.10686 22.877 0.000183105 19.0357 0.000183105C15.8474 0.000183105 13.7944 1.88702 13 2.68241C12.2056 1.88702 10.1526 0.000183105 6.96429 0.000183105ZM6.96429 1.82638C9.73912 1.82638 12.3036 4.48008 12.3036 4.48008L13 5.25051L13.6964 4.48008C13.6964 4.48008 16.2609 1.82638 19.0357 1.82638C21.8613 1.82638 24.1429 4.10557 24.1429 6.84843C24.1429 8.25732 22.4018 10.1584 22.4018 10.1584L13 19.4036L3.59821 10.1584C3.59821 10.1584 3.14844 9.73397 2.69866 9.07411C2.24888 8.41426 1.85714 7.55466 1.85714 6.84843C1.85714 4.10557 4.13867 1.82638 6.96429 1.82638Z"
-                                                            fill="#00234D" />
-                                                    </svg>
-                                                </a>
-
-                                                <a href="#" class="action-card action-addtocart">
-                                                    <svg class="icon icon-cart" width="24" height="26"
-                                                        viewBox="0 0 24 26" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path
-                                                            d="M12 0.000183105C9.25391 0.000183105 7 2.25409 7 5.00018V6.00018H2.0625L2 6.93768L1 24.9377L0.9375 26.0002H23.0625L23 24.9377L22 6.93768L21.9375 6.00018H17V5.00018C17 2.25409 14.7461 0.000183105 12 0.000183105ZM12 2.00018C13.6562 2.00018 15 3.34393 15 5.00018V6.00018H9V5.00018C9 3.34393 10.3438 2.00018 12 2.00018ZM3.9375 8.00018H7V11.0002H9V8.00018H15V11.0002H17V8.00018H20.0625L20.9375 24.0002H3.0625L3.9375 8.00018Z"
-                                                            fill="#00234D" />
-                                                    </svg>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="product-card-details">
-                                            <ul class="color-lists list-unstyled d-flex align-items-center">
-                                                <li><a href="javascript:void(0)"
-                                                        class="color-swatch swatch-black active"></a></li>
-                                                <li><a href="javascript:void(0)" class="color-swatch swatch-cyan"></a>
-                                                </li>
-                                                <li><a href="javascript:void(0)" class="color-swatch swatch-purple"></a>
-                                                </li>
-                                            </ul>
-                                            <h3 class="product-card-title">
-                                                <a href="collection-left-sidebar.html">Tree1</a>
-                                            </h3>
-                                            <div class="product-card-price">
-                                                <span class="card-price-regular">$300</span>
-                                                <span
-                                                    class="card-price-compare text-decoration-line-through">$1759</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 col-6" data-aos="fade-up" data-aos-duration="700">
-                                    <div class="product-card">
-                                        <div class="product-card-img">
-                                            <a class="hover-switch" href="collection-left-sidebar.html">
-                                                <img class="secondary-img" src="assets/img/products/vasta/11.jpg"
-                                                    alt="product-img">
-                                                <img class="primary-img" src="assets/img/products/vasta/22.jpg"
-                                                    alt="product-img">
-                                            </a>
-
-
-                                            <div
-                                                class="product-card-action product-card-action-2 justify-content-center">
-                                                <a href="#quickview-modal" class="action-card action-quickview"
-                                                    data-bs-toggle="modal">
-                                                    <svg width="26" height="26" viewBox="0 0 26 26" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path
-                                                            d="M10 0C15.5117 0 20 4.48828 20 10C20 12.3945 19.1602 14.5898 17.75 16.3125L25.7188 24.2812L24.2812 25.7188L16.3125 17.75C14.5898 19.1602 12.3945 20 10 20C4.48828 20 0 15.5117 0 10C0 4.48828 4.48828 0 10 0ZM10 2C5.57031 2 2 5.57031 2 10C2 14.4297 5.57031 18 10 18C14.4297 18 18 14.4297 18 10C18 5.57031 14.4297 2 10 2ZM11 6V9H14V11H11V14H9V11H6V9H9V6H11Z"
-                                                            fill="#00234D" />
-                                                    </svg>
-                                                </a>
-
-                                                <a href="#" class="action-card action-wishlist">
-                                                    <svg class="icon icon-wishlist" width="26" height="22"
-                                                        viewBox="0 0 26 22" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path
-                                                            d="M6.96429 0.000183105C3.12305 0.000183105 0 3.10686 0 6.84843C0 8.15388 0.602121 9.28455 1.16071 10.1014C1.71931 10.9181 2.29241 11.4425 2.29241 11.4425L12.3326 21.3439L13 22.0002L13.6674 21.3439L23.7076 11.4425C23.7076 11.4425 26 9.45576 26 6.84843C26 3.10686 22.877 0.000183105 19.0357 0.000183105C15.8474 0.000183105 13.7944 1.88702 13 2.68241C12.2056 1.88702 10.1526 0.000183105 6.96429 0.000183105ZM6.96429 1.82638C9.73912 1.82638 12.3036 4.48008 12.3036 4.48008L13 5.25051L13.6964 4.48008C13.6964 4.48008 16.2609 1.82638 19.0357 1.82638C21.8613 1.82638 24.1429 4.10557 24.1429 6.84843C24.1429 8.25732 22.4018 10.1584 22.4018 10.1584L13 19.4036L3.59821 10.1584C3.59821 10.1584 3.14844 9.73397 2.69866 9.07411C2.24888 8.41426 1.85714 7.55466 1.85714 6.84843C1.85714 4.10557 4.13867 1.82638 6.96429 1.82638Z"
-                                                            fill="#00234D" />
-                                                    </svg>
-                                                </a>
-
-                                                <a href="#" class="action-card action-addtocart">
-                                                    <svg class="icon icon-cart" width="24" height="26"
-                                                        viewBox="0 0 24 26" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path
-                                                            d="M12 0.000183105C9.25391 0.000183105 7 2.25409 7 5.00018V6.00018H2.0625L2 6.93768L1 24.9377L0.9375 26.0002H23.0625L23 24.9377L22 6.93768L21.9375 6.00018H17V5.00018C17 2.25409 14.7461 0.000183105 12 0.000183105ZM12 2.00018C13.6562 2.00018 15 3.34393 15 5.00018V6.00018H9V5.00018C9 3.34393 10.3438 2.00018 12 2.00018ZM3.9375 8.00018H7V11.0002H9V8.00018H15V11.0002H17V8.00018H20.0625L20.9375 24.0002H3.0625L3.9375 8.00018Z"
-                                                            fill="#00234D" />
-                                                    </svg>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="product-card-details">
-                                            <ul class="color-lists list-unstyled d-flex align-items-center">
-                                                <li><a href="javascript:void(0)"
-                                                        class="color-swatch swatch-black active"></a></li>
-                                                <li><a href="javascript:void(0)" class="color-swatch swatch-cyan"></a>
-                                                </li>
-                                                <li><a href="javascript:void(0)" class="color-swatch swatch-purple"></a>
-                                                </li>
-                                            </ul>
-                                            <h3 class="product-card-title">
-                                                <a href="collection-left-sidebar.html">Box1</a>
-                                            </h3>
-                                            <div class="product-card-price">
-                                                <span class="card-price-regular">$300</span>
-                                                <span
-                                                    class="card-price-compare text-decoration-line-through">$1759</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-
+                <form action="#" class="login-form common-form mx-auto">
+                    <div class="section-header mb-3">
+                        <h2 class="section-heading text-center">Register</h2>
                     </div>
-                    <!-- product area end -->
-
-                </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <fieldset>
+                                <label class="label">First name</label>
+                                <input type="text" />
+                            </fieldset>
+                        </div>
+                        <div class="col-12">
+                            <fieldset>
+                                <label class="label">Last name</label>
+                                <input type="text" />
+                            </fieldset>
+                        </div>
+                        <div class="col-12">
+                            <fieldset>
+                                <label class="label">Email address</label>
+                                <input type="email" />
+                            </fieldset>
+                        </div>
+                        <div class="col-12">
+                            <fieldset>
+                                <label class="label">Password</label>
+                                <input type="password" />
+                            </fieldset>
+                        </div>
+                        <div class="col-12 mt-3">
+                            <button type="submit" class="btn-primary d-block mt-3 btn-signin">CREATE</button>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </main>
+
+
 
     <!-- footer start -->
     <footer class="mt-100 overflow-hidden footer-style-2">
@@ -488,16 +287,22 @@
                                         <svg class="icon icon-dropdown" xmlns="http://www.w3.org/2000/svg" width="24"
                                             height="24" viewBox="0 0 24 24" fill="none" stroke="#00234D"
                                             stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
-                                            <polyline points="6 9 12 15 18 9"></polyline>
+                                            <polyline points="6 9 12 15 18 9">
+                                            </polyline>
                                         </svg>
                                     </span>
                                 </h4>
                                 <ul class="footer-menu list-unstyled mb-0 d-md-block">
-                                    <li class="footer-menu-item"><a href="#">About us</a></li>
-                                    <li class="footer-menu-item"><a href="#">Press center</a></li>
-                                    <li class="footer-menu-item"><a href="#">Our magazine</a></li>
-                                    <li class="footer-menu-item"><a href="#">Our group</a></li>
-                                    <li class="footer-menu-item"><a href="#">Work with us</a></li>
+                                    <li class="footer-menu-item"><a href="#">About
+                                            us</a></li>
+                                    <li class="footer-menu-item"><a href="#">Press
+                                            center</a></li>
+                                    <li class="footer-menu-item"><a href="#">Our
+                                            magazine</a></li>
+                                    <li class="footer-menu-item"><a href="#">Our
+                                            group</a></li>
+                                    <li class="footer-menu-item"><a href="#">Work with
+                                            us</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -509,16 +314,20 @@
                                         <svg class="icon icon-dropdown" xmlns="http://www.w3.org/2000/svg" width="24"
                                             height="24" viewBox="0 0 24 24" fill="none" stroke="#00234D"
                                             stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
-                                            <polyline points="6 9 12 15 18 9"></polyline>
+                                            <polyline points="6 9 12 15 18 9">
+                                            </polyline>
                                         </svg>
                                     </span>
                                 </h4>
                                 <ul class="footer-menu list-unstyled mb-0 d-md-block">
-                                    <li class="footer-menu-item"><a href="#">Catalog</a></li>
+                                    <li class="footer-menu-item"><a href="#">Catalog</a>
+                                    </li>
                                     <li class="footer-menu-item"><a href="#">Promocode</a></li>
                                     <li class="footer-menu-item"><a href="#">Discount</a></li>
-                                    <li class="footer-menu-item"><a href="#">Friday</a></li>
-                                    <li class="footer-menu-item"><a href="#">Monday</a></li>
+                                    <li class="footer-menu-item"><a href="#">Friday</a>
+                                    </li>
+                                    <li class="footer-menu-item"><a href="#">Monday</a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -530,15 +339,20 @@
                                         <svg class="icon icon-dropdown" xmlns="http://www.w3.org/2000/svg" width="24"
                                             height="24" viewBox="0 0 24 24" fill="none" stroke="#00234D"
                                             stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
-                                            <polyline points="6 9 12 15 18 9"></polyline>
+                                            <polyline points="6 9 12 15 18 9">
+                                            </polyline>
                                         </svg>
                                     </span>
                                 </h4>
                                 <ul class="footer-menu list-unstyled mb-0 d-md-block">
-                                    <li class="footer-menu-item"><a href="#">FAQ</a></li>
-                                    <li class="footer-menu-item"><a href="#">Privacy policy</a></li>
-                                    <li class="footer-menu-item"><a href="#">Support</a></li>
-                                    <li class="footer-menu-item"><a href="#">Contact</a></li>
+                                    <li class="footer-menu-item"><a href="#">FAQ</a>
+                                    </li>
+                                    <li class="footer-menu-item"><a href="#">Privacy
+                                            policy</a></li>
+                                    <li class="footer-menu-item"><a href="#">Support</a>
+                                    </li>
+                                    <li class="footer-menu-item"><a href="#">Contact</a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -630,9 +444,11 @@
                     class="footer-bottom-inner d-flex flex-wrap justify-content-md-between justify-content-center align-items-center">
                     <ul class="footer-bottom-menu list-unstyled d-flex flex-wrap align-items-center mb-0">
                         <li class="footer-menu-item"><a href="#">Privacy policy</a></li>
-                        <li class="footer-menu-item"><a href="#">Terms & Conditions</a></li>
+                        <li class="footer-menu-item"><a href="#">Terms & Conditions</a>
+                        </li>
                     </ul>
-                    <p class="copyright footer-text">©<span class="current-year"></span> Bingo.</p>
+                    <p class="copyright footer-text">©<span class="current-year"></span>
+                        Bingo.</p>
                 </div>
             </div>
         </div>
@@ -681,7 +497,6 @@
     <!-- drawer menu end -->
 
 
-
     <!-- drawer cart start -->
     <div class="offcanvas offcanvas-end" tabindex="-1" id="drawer-cart">
         <div class="offcanvas-header border-btm-black">
@@ -720,12 +535,14 @@
                                 <span class="cart-subtotal mb-0">Subtotal</span>
                                 <span class="cart-subprice">$300.00</span>
                             </div>
-                            <p class="cart-taxes text-center my-4">Taxes and shipping will be calculated at
+                            <p class="cart-taxes text-center my-4">Taxes and shipping
+                                will be calculated at
                                 checkout.
                             </p>
                         </div>
                         <div class="minicart-btn-area d-flex align-items-center justify-content-between">
-                            <a href="cart.html" class="minicart-btn btn-secondary">View Cart</a>
+                            <a href="cart.html" class="minicart-btn btn-secondary">View
+                                Cart</a>
                             <a href="checkout.html" class="minicart-btn btn-primary">Checkout</a>
                         </div>
                     </div>
@@ -745,9 +562,6 @@
             </div>
         </div>
         <!-- drawer cart end -->
-
-
-
         <!-- all js -->
         <script src="assets/js/vendor.js"></script>
         <script src="assets/js/main.js"></script>
