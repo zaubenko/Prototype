@@ -70,56 +70,16 @@
 
 <body>
     <div class="body-wrapper">
-        <!-- announcement bar start -->
-        <div class="announcement-bar bg-1 py-1 py-lg-2">
-            <div class="container">
-                <div class="row align-items-center justify-content-between">
-                    <div class="col-lg-3 d-lg-block d-none">
-                        <div class="announcement-call-wrapper">
-                            <div class="announcement-call">
-                                <a class="announcement-text text-white" href="tel:+1-078-2376">Call: +1 23456</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-12">
-                        <div class="announcement-text-wrapper d-flex align-items-center justify-content-center">
-                            <p class="announcement-text text-white">Welcome on Bingo</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 d-lg-block d-none">
-                        <div class="announcement-meta-wrapper d-flex align-items-center justify-content-end">
-                            <div class="announcement-meta d-flex align-items-center">
-                                <a class="announcement-login announcement-text text-white" href="login.html">
-                                    <svg class="icon icon-user" width="10" height="11" viewBox="0 0 10 11" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M5 0C3.07227 0 1.5 1.57227 1.5 3.5C1.5 4.70508 2.11523 5.77539 3.04688 6.40625C1.26367 7.17188 0 8.94141 0 11H1C1 8.78516 2.78516 7 5 7C7.21484 7 9 8.78516 9 11H10C10 8.94141 8.73633 7.17188 6.95312 6.40625C7.88477 5.77539 8.5 4.70508 8.5 3.5C8.5 1.57227 6.92773 0 5 0ZM5 1C6.38672 1 7.5 2.11328 7.5 3.5C7.5 4.88672 6.38672 6 5 6C3.61328 6 2.5 4.88672 2.5 3.5C2.5 2.11328 3.61328 1 5 1Z"
-                                            fill="#fff" />
-                                    </svg>
-                                    <span>Login</span>
-                                </a>
-                                <span class="separator-login d-flex px-3">
-                                    <svg width="2" height="9" viewBox="0 0 2 9" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path opacity="0.4" d="M1 0.5V8.5" stroke="#FEFEFE" stroke-linecap="round" />
-                                    </svg>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+        <!-- header start -->
+          <!-- header start -->
 
-    <!-- header start -->
-    <header class="sticky-header border-btm-black header-1">
+          <header class="sticky-header border-btm-black header-1">
         <div class="header-bottom">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-3 col-md-4 col-4">
                         <div class="header-logo">
-                            <a href="index.html" class="logo-main">
+                            <a href="index.php" class="logo-main">
                                 <img src="assets/img/logo.png" loading="lazy" alt="bisum">
                             </a>
                         </div>
@@ -129,33 +89,30 @@
                             <ul class="main-menu list-unstyled justify-content-center">
                                 <li class="menu-list-item nav-item has-dropdown active">
                                     <div class="mega-menu-header">
-                                        <a class="nav-link" href="index.html">
+                                        <a class="nav-link" href="index.php">
                                             Home
                                         </a>
                                     </div>
                                 </li>
                                 <li class="menu-list-item nav-item has-megamenu">
                                     <div class="mega-menu-header">
-                                        <a class="nav-link" href="collection-left-sidebar.html">
+                                        <a class="nav-link" href="collection-left-sidebar.php">
                                             Shop
                                         </a>
                                 </li>
                                 <li class="menu-list-item nav-item">
-                                    <a class="nav-link" href="contact.html">Contact</a>
+                                    <a class="nav-link" href="contact.php">Contact</a>
                                 </li>
                             </ul>
                         </nav>
                     </div>
                     <div class="col-lg-3 col-md-8 col-8">
                         <div class="header-action d-flex align-items-center justify-content-end">
-                            <a class="header-action-item header-search" href="javascript:void(0)">
-                                <svg class="icon icon-search" width="20" height="20" viewBox="0 0 20 20" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M7.75 0.250183C11.8838 0.250183 15.25 3.61639 15.25 7.75018C15.25 9.54608 14.6201 11.1926 13.5625 12.4846L19.5391 18.4611L18.4609 19.5392L12.4844 13.5627C11.1924 14.6203 9.5459 15.2502 7.75 15.2502C3.61621 15.2502 0.25 11.884 0.25 7.75018C0.25 3.61639 3.61621 0.250183 7.75 0.250183ZM7.75 1.75018C4.42773 1.75018 1.75 4.42792 1.75 7.75018C1.75 11.0724 4.42773 13.7502 7.75 13.7502C11.0723 13.7502 13.75 11.0724 13.75 7.75018C13.75 4.42792 11.0723 1.75018 7.75 1.75018Z"
-                                        fill="black" />
-                                </svg>
-                            </a>
+                        <a class="nav-link" href="login.php">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="26" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+  <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z" fill="black"/>
+</svg>
+                                </a>
                             <a class="header-action-item header-cart ms-4" href="#drawer-cart"
                                 data-bs-toggle="offcanvas">
                                 <svg class="icon icon-cart" width="24" height="26" viewBox="0 0 24 26" fill="none"
@@ -179,35 +136,11 @@
                     </div>
                 </div>
             </div>
-            <div class="search-wrapper">
-                <div class="container">
-                    <form action="#" class="search-form d-flex align-items-center">
-                        <button type="submit" class="search-submit bg-transparent pl-0 text-start">
-                            <svg class="icon icon-search" width="20" height="20" viewBox="0 0 20 20" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M7.75 0.250183C11.8838 0.250183 15.25 3.61639 15.25 7.75018C15.25 9.54608 14.6201 11.1926 13.5625 12.4846L19.5391 18.4611L18.4609 19.5392L12.4844 13.5627C11.1924 14.6203 9.5459 15.2502 7.75 15.2502C3.61621 15.2502 0.25 11.884 0.25 7.75018C0.25 3.61639 3.61621 0.250183 7.75 0.250183ZM7.75 1.75018C4.42773 1.75018 1.75 4.42792 1.75 7.75018C1.75 11.0724 4.42773 13.7502 7.75 13.7502C11.0723 13.7502 13.75 11.0724 13.75 7.75018C13.75 4.42792 11.0723 1.75018 7.75 1.75018Z"
-                                    fill="black" />
-                            </svg>
-                        </button>
-                        <div class="search-input mr-4">
-                            <input type="text" placeholder="Search your products..." autocomplete="off">
-                        </div>
-                        <div class="search-close">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" class="icon icon-close">
-                                <line x1="18" y1="6" x2="6" y2="18"></line>
-                                <line x1="6" y1="6" x2="18" y2="18"></line>
-                            </svg>
-                        </div>
-                    </form>
-                </div>
-            </div>
+        
+                                
         </div>
     </header>
     <!-- header end -->
-
 
     <!-- breadcrumb start -->
     <div class="breadcrumb">
@@ -224,54 +157,95 @@
                         </g>
                     </svg>
                 </li>
-                <li>Register</li>
+                <li>Cart</li>
             </ul>
         </div>
     </div>
     <!-- breadcrumb end -->
 
     <main id="MainContent" class="content-for-layout">
-        <div class="login-page mt-100">
+        <div class="cart-page mt-100">
             <div class="container">
-                <form action="#" class="login-form common-form mx-auto">
-                    <div class="section-header mb-3">
-                        <h2 class="section-heading text-center">Register</h2>
-                    </div>
+                <div class="cart-page-wrapper">
                     <div class="row">
-                        <div class="col-12">
-                            <fieldset>
-                                <label class="label">First name</label>
-                                <input type="text" />
-                            </fieldset>
+                        <div class="col-lg-7 col-md-12 col-12">
+                            <table class="cart-table w-100">
+                                <thead>
+                                    <tr>
+                                        <th class="cart-caption heading_18">Product</th>
+                                        <th class="cart-caption heading_18"></th>
+                                        <th class="cart-caption text-center heading_18 d-none d-md-table-cell">
+                                            Quantity</th>
+                                        <th class="cart-caption text-end heading_18">Price</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                    <tr class="cart-item">
+                                        <td class="cart-item-media">
+                                            <div class="mini-img-wrapper">
+                                                <img class="mini-img" src="assets/img/products/furniture/1.jpg"
+                                                    alt="img">
+                                            </div>
+                                        </td>
+                                        <td class="cart-item-details">
+                                            <h2 class="product-title"><a href="#">Product</a></h2>
+                                            <p class="product-vendor">Type / Type</p>
+                                        </td>
+                                        <td class="cart-item-quantity">
+                                            <div class="quantity d-flex align-items-center justify-content-between">
+                                                <button class="qty-btn dec-qty"><img src="assets/img/icon/minus.svg"
+                                                        alt="minus"></button>
+                                                <input class="qty-input" type="number" name="qty" value="1" min="0">
+                                                <button class="qty-btn inc-qty"><img src="assets/img/icon/plus.svg"
+                                                        alt="plus"></button>
+                                            </div>
+                                            <a href="#" class="product-remove mt-2">Remove</a>
+                                        </td>
+                                        <td class="cart-item-price text-end">
+                                            <div class="product-price">$300.00</div>
+                                        </td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
                         </div>
-                        <div class="col-12">
-                            <fieldset>
-                                <label class="label">Last name</label>
-                                <input type="text" />
-                            </fieldset>
-                        </div>
-                        <div class="col-12">
-                            <fieldset>
-                                <label class="label">Email address</label>
-                                <input type="email" />
-                            </fieldset>
-                        </div>
-                        <div class="col-12">
-                            <fieldset>
-                                <label class="label">Password</label>
-                                <input type="password" />
-                            </fieldset>
-                        </div>
-                        <div class="col-12 mt-3">
-                            <button type="submit" class="btn-primary d-block mt-3 btn-signin">CREATE</button>
+                        <div class="col-lg-5 col-md-12 col-12">
+                            <div class="cart-total-area">
+                                <h3 class="cart-total-title d-none d-lg-block mb-0">Cart Totals</h4>
+                                    <div class="cart-total-box mt-4">
+                                        <div class="subtotal-item subtotal-box">
+                                            <h4 class="subtotal-title">Subtotals:</h4>
+                                            <p class="subtotal-value">$300.00</p>
+                                        </div>
+                                        <div class="subtotal-item shipping-box">
+                                            <h4 class="subtotal-title">Shipping:</h4>
+                                            <p class="subtotal-value">$10.00</p>
+                                        </div>
+                                        <div class="subtotal-item discount-box">
+                                            <h4 class="subtotal-title">Discount:</h4>
+                                            <p class="subtotal-value">$100.00</p>
+                                        </div>
+                                        <hr />
+                                        <div class="subtotal-item discount-box">
+                                            <h4 class="subtotal-title">Total:</h4>
+                                            <p class="subtotal-value">$210.00</p>
+                                        </div>
+                                        <p class="shipping_text">Shipping & taxes calculated at checkout</p>
+                                        <div class="d-flex justify-content-center mt-4">
+                                            <a href="checkout.html"
+                                                class="position-relative btn-primary text-uppercase">
+                                                Procced to checkout
+                                            </a>
+                                        </div>
+                                    </div>
+                            </div>
                         </div>
                     </div>
-                </form>
+                </div>
             </div>
         </div>
     </main>
-
-
 
     <!-- footer start -->
     <footer class="mt-100 overflow-hidden footer-style-2">
@@ -287,22 +261,16 @@
                                         <svg class="icon icon-dropdown" xmlns="http://www.w3.org/2000/svg" width="24"
                                             height="24" viewBox="0 0 24 24" fill="none" stroke="#00234D"
                                             stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
-                                            <polyline points="6 9 12 15 18 9">
-                                            </polyline>
+                                            <polyline points="6 9 12 15 18 9"></polyline>
                                         </svg>
                                     </span>
                                 </h4>
                                 <ul class="footer-menu list-unstyled mb-0 d-md-block">
-                                    <li class="footer-menu-item"><a href="#">About
-                                            us</a></li>
-                                    <li class="footer-menu-item"><a href="#">Press
-                                            center</a></li>
-                                    <li class="footer-menu-item"><a href="#">Our
-                                            magazine</a></li>
-                                    <li class="footer-menu-item"><a href="#">Our
-                                            group</a></li>
-                                    <li class="footer-menu-item"><a href="#">Work with
-                                            us</a></li>
+                                    <li class="footer-menu-item"><a href="#">About us</a></li>
+                                    <li class="footer-menu-item"><a href="#">Press center</a></li>
+                                    <li class="footer-menu-item"><a href="#">Our magazine</a></li>
+                                    <li class="footer-menu-item"><a href="#">Our group</a></li>
+                                    <li class="footer-menu-item"><a href="#">Work with us</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -314,20 +282,16 @@
                                         <svg class="icon icon-dropdown" xmlns="http://www.w3.org/2000/svg" width="24"
                                             height="24" viewBox="0 0 24 24" fill="none" stroke="#00234D"
                                             stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
-                                            <polyline points="6 9 12 15 18 9">
-                                            </polyline>
+                                            <polyline points="6 9 12 15 18 9"></polyline>
                                         </svg>
                                     </span>
                                 </h4>
                                 <ul class="footer-menu list-unstyled mb-0 d-md-block">
-                                    <li class="footer-menu-item"><a href="#">Catalog</a>
-                                    </li>
+                                    <li class="footer-menu-item"><a href="#">Catalog</a></li>
                                     <li class="footer-menu-item"><a href="#">Promocode</a></li>
                                     <li class="footer-menu-item"><a href="#">Discount</a></li>
-                                    <li class="footer-menu-item"><a href="#">Friday</a>
-                                    </li>
-                                    <li class="footer-menu-item"><a href="#">Monday</a>
-                                    </li>
+                                    <li class="footer-menu-item"><a href="#">Friday</a></li>
+                                    <li class="footer-menu-item"><a href="#">Monday</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -339,20 +303,15 @@
                                         <svg class="icon icon-dropdown" xmlns="http://www.w3.org/2000/svg" width="24"
                                             height="24" viewBox="0 0 24 24" fill="none" stroke="#00234D"
                                             stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
-                                            <polyline points="6 9 12 15 18 9">
-                                            </polyline>
+                                            <polyline points="6 9 12 15 18 9"></polyline>
                                         </svg>
                                     </span>
                                 </h4>
                                 <ul class="footer-menu list-unstyled mb-0 d-md-block">
-                                    <li class="footer-menu-item"><a href="#">FAQ</a>
-                                    </li>
-                                    <li class="footer-menu-item"><a href="#">Privacy
-                                            policy</a></li>
-                                    <li class="footer-menu-item"><a href="#">Support</a>
-                                    </li>
-                                    <li class="footer-menu-item"><a href="#">Contact</a>
-                                    </li>
+                                    <li class="footer-menu-item"><a href="#">FAQ</a></li>
+                                    <li class="footer-menu-item"><a href="#">Privacy policy</a></li>
+                                    <li class="footer-menu-item"><a href="#">Support</a></li>
+                                    <li class="footer-menu-item"><a href="#">Contact</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -444,11 +403,9 @@
                     class="footer-bottom-inner d-flex flex-wrap justify-content-md-between justify-content-center align-items-center">
                     <ul class="footer-bottom-menu list-unstyled d-flex flex-wrap align-items-center mb-0">
                         <li class="footer-menu-item"><a href="#">Privacy policy</a></li>
-                        <li class="footer-menu-item"><a href="#">Terms & Conditions</a>
-                        </li>
+                        <li class="footer-menu-item"><a href="#">Terms & Conditions</a></li>
                     </ul>
-                    <p class="copyright footer-text">©<span class="current-year"></span>
-                        Bingo.</p>
+                    <p class="copyright footer-text">©<span class="current-year"></span> Bingo.</p>
                 </div>
             </div>
         </div>
@@ -464,8 +421,9 @@
     </button>
     <!-- scrollup end -->
 
-    <!-- drawer menu start -->
-    <div class="offcanvas offcanvas-start d-flex d-lg-none" tabindex="-1" id="drawer-menu">
+
+     <!-- drawer menu start -->
+     <div class="offcanvas offcanvas-start d-flex d-lg-none" tabindex="-1" id="drawer-menu">
         <div class="offcanvas-wrapper">
             <div class="offcanvas-header border-btm-black">
                 <h5 class="drawer-heading">Menu</h5>
@@ -477,16 +435,16 @@
                     <ul class="main-menu list-unstyled">
                         <li class="menu-list-item nav-item has-dropdown active">
                             <div class="mega-menu-header">
-                                <a class="nav-link active" href="index.html">
+                                <a class="nav-link active" href="index.php">
                                     Home
                                 </a>
                         <li class="menu-list-item nav-item has-megamenu">
                             <div class="mega-menu-header">
-                                <a class="nav-link" href="collection-left-sidebar.html">
+                                <a class="nav-link" href="collection-left-sidebar.php">
                                     Shop
                                 </a>
                         <li class="menu-list-item nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                            <a class="nav-link" href="contact.php">Contact</a>
                         </li>
                     </ul>
                 </nav>
@@ -495,6 +453,7 @@
         </div>
     </div>
     <!-- drawer menu end -->
+
 
 
     <!-- drawer cart start -->
@@ -535,15 +494,13 @@
                                 <span class="cart-subtotal mb-0">Subtotal</span>
                                 <span class="cart-subprice">$300.00</span>
                             </div>
-                            <p class="cart-taxes text-center my-4">Taxes and shipping
-                                will be calculated at
+                            <p class="cart-taxes text-center my-4">Taxes and shipping will be calculated at
                                 checkout.
                             </p>
                         </div>
                         <div class="minicart-btn-area d-flex align-items-center justify-content-between">
-                            <a href="cart.html" class="minicart-btn btn-secondary">View
-                                Cart</a>
-                            <a href="checkout.html" class="minicart-btn btn-primary">Checkout</a>
+                            <a href="cart.php" class="minicart-btn btn-secondary">View Cart</a>
+                            <a href="checkout.php" class="minicart-btn btn-primary">Checkout</a>
                         </div>
                     </div>
                 </div>
@@ -562,9 +519,13 @@
             </div>
         </div>
         <!-- drawer cart end -->
-        <!-- all js -->
-        <script src="assets/js/vendor.js"></script>
-        <script src="assets/js/main.js"></script>
+
+
+
+
+    <!-- all js -->
+    <script src="assets/js/vendor.js"></script>
+    <script src="assets/js/main.js"></script>
     </div>
 </body>
 

@@ -2,6 +2,7 @@
 iframe {
   width: 100%;
 }
+@import url("../scss/register.scss");
 
 .container-fluid {
   padding-left: 160px;
@@ -4020,6 +4021,9 @@ blockquote {
   .newsltter-content-1 {
     padding-left: 97px;
   }
+}
+.message {
+  margin: 10px 0;
 }
 
 @media (min-width: 1520px) {
